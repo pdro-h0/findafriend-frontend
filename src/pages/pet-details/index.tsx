@@ -83,6 +83,8 @@ const PetDetails = () => {
       break;
   }
 
+  if(!pet) return
+
   const handleMessage = () =>{
     const mensage = `Olá, gostaria de conversar à respeito do(a) ${pet?.name}`;
     
