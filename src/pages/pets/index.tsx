@@ -222,7 +222,7 @@ const Pets = () => {
             </button>
           </div>
 
-          <div className="flex flex-wrap gap-6 mt-14 pb-2">
+          <div className="flex flex-wrap gap-6 mt-14 pb-1">
             {petsFiltered.map((pet) => (
               <PetItem pet={pet} key={pet.id} />
             ))}
