@@ -118,7 +118,7 @@ const RegisterComponent = ({ setIsLoginPage }: RegisterComponentProps) => {
           value={cep}
           id="cep"
           name="cep"
-          type="number"
+          type="text"
           required
           pattern="\d{5}-d\d{3}"
           labelText="Cep"
@@ -138,7 +138,7 @@ const RegisterComponent = ({ setIsLoginPage }: RegisterComponentProps) => {
           value={phoneNumber}
           id="phoneNumber"
           name="phoneNumber"
-          type="number"
+          type="text"
           labelText="Whatsapp"
           setValue={setPhone}
         />
